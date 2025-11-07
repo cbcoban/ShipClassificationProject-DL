@@ -10,7 +10,7 @@ Kullanılan veri seti Kaggle'da bulunan "Game of Deep Learning: Ship Datasets" a
 Model, TensorFlow ve Keras kütüphaneleri kullanılarak geliştirilmiştir. ImageNet üzerinde ön-eğitimli **EfficientNetB0** modeli ile Transfer Öğrenme yaklaşımı kullanılmıştır.
 
 ## Sonuçlar
-[cite_start]Model, doğrulama (validation) seti üzerinde **%88.41** genel doğruluk [cite: 570-576] [cite_start]ve **0.9835** makro ROC-AUC [cite: 627] skoru elde etmiştir.
+Model, doğrulama (validation) seti üzerinde **%88.41** genel doğruluk ve **0.9835** makro ROC-AUC skoru elde etmiştir.
 
 ## Kurulum ve Çalıştırma
 
