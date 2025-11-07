@@ -2,7 +2,6 @@
 
 ## Overview
 This project classifies ship images into five categories (Cargo, Military, Carrier, Cruise, Tanker) using deep learning and transfer learning with EfficientNetB0.  
-Developed by **Celil Berk Çoban** as part of the graduate course *Deep Learning*.
 
 ## Dataset
 Kaggle: Game of Deep Learning – Ship Dataset  
