@@ -22,8 +22,45 @@ Download dataset locally and place images under `data/images/`, and `train.csv` 
 ### Confusion Matrix
 ![Confusion Matrix](outputs/confusion_matrix.png)
 
+
 ## How to Run
-```bash
 pip install -r requirements.txt
-# open the notebook
+
+## Türkçe Açıklama
+## EfficientNetB0 ile Gemi Görüntülerinin Sınıflandırılması
+## Genel Bakış
+
+Bu proje, derin öğrenme ve transfer öğrenme yaklaşımlarını kullanarak gemi görüntülerini beş kategoriye ayırmaktadır: Cargo (Yük Gemisi), Military (Askerî), Carrier (Uçak Gemisi), Cruise (Yolcu Gemisi) ve Tanker.
+Proje, Celil Berk Çoban tarafından Ankara Bilim Üniversitesi Yüksek Lisans Programı kapsamında Derin Öğrenme dersi için geliştirilmiştir.
+
+## Veri Seti
+
+Veri kaynağı: Kaggle – Game of Deep Learning: Ship Dataset
+Bu veri seti, farklı açılardan çekilmiş 2B gemi görüntülerini içermektedir.
+Veri seti bu depoda paylaşılmamıştır; indirilen görüntüler data/images/ klasörüne, train.csv dosyası ise data/ klasörüne yerleştirilmelidir.
+
+## Model Mimarisi
+
+EfficientNetB0 (ImageNet önceden eğitilmiş ağırlıklarıyla)
+Girdi boyutu: 224×224 piksel
+Optimizasyon: Adam (lr = 1e-3)
+Kayıp fonksiyonu: Categorical Crossentropy
+Eğitim: 25 epoch
+Kullanılan callback’ler: EarlyStopping ve ModelCheckpoint (.keras)
+
+## Sonuçlar
+Doğrulama doğruluğu (Validation Accuracy): 0.884
+Makro ROC-AUC skoru: 0.984
+Karışıklık Matrisi
+
+## Nasıl Çalıştırılır
+pip install -r requirements.txt
 jupyter notebook notebooks/GemiTürüSiniflandirmaProjesi_Odev.ipynb
+
+## Gereksinimler
+
+requirements.txt dosyasına bakınız.
+
+## Lisans
+
+MIT Lisansı © 2025 Celil Berk Çoban
