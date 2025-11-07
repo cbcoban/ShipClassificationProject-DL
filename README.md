@@ -19,10 +19,6 @@ Download dataset locally and place images under `data/images/`, and `train.csv` 
 - Validation Accuracy ≈ **0.884**
 - Macro ROC-AUC ≈ **0.984**
 
-### Confusion Matrix
-![Confusion Matrix](outputs/confusion_matrix.png)
-
-
 ## How to Run
 pip install -r requirements.txt
 
@@ -55,7 +51,7 @@ Karışıklık Matrisi
 
 ## Nasıl Çalıştırılır
 pip install -r requirements.txt
-jupyter notebook notebooks/GemiTürüSiniflandirmaProjesi_Odev.ipynb
+jupyter notebook notebooks/ShipClassifaction_GitHub.ipynb
 
 ## Gereksinimler
 
