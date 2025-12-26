@@ -1,0 +1,17 @@
+{
+  "noaug": {
+    "best_val_acc": 0.9549050632911392,
+    "best_path": "C:\\Users\\berk3\\PycharmProjects\\GemiSiniflandirmaProjesi\\outputs\\best_noaug.pth"
+  },
+  "aug": {
+    "best_val_acc": 0.9533227848101266,
+    "best_path": "C:\\Users\\berk3\\PycharmProjects\\GemiSiniflandirmaProjesi\\outputs\\best_aug.pth"
+  },
+  "settings": {
+    "batch_size": 16,
+    "epochs": 10,
+    "img_size": 224,
+    "lr": 0.0003,
+    "val_size": 0.2
+  }
+}

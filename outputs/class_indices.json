@@ -1,0 +1,7 @@
+{
+  "Cargo": 0,
+  "Carrier": 1,
+  "Cruise": 2,
+  "Military": 3,
+  "Tanker": 4
+}
