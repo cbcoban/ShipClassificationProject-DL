@@ -1,7 +1,11 @@
-tensorflow
+torch
 pandas
 matplotlib
 seaborn
 scikit-learn
 opencv-python
 kaggle
+torchvision
+numpy
+seaborn
+tqdm
